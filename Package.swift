@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "swift-binary-packages",
+    name: "SCSDKCreativeKit-SPM",
     products: [
         .library(
             name: "SCSDKCreativeKit",
