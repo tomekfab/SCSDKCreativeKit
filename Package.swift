@@ -8,12 +8,18 @@ let package = Package(
     products: [
         .library(
             name: "SCSDKCreativeKit",
-            targets: ["SCSDKCreativeKit"])
+            targets: ["SCSDKCreativeKit"]),
+        .library(
+            name: "SCSDKCoreKit",
+            targets: ["SCSDKCoreKit"])
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
             name: "SCSDKCreativeKit",
-            path: "./Sources/SCSDKCreativeKit.xcframework")
+            path: "./Sources/SCSDKCreativeKit.xcframework"),
+        .binaryTarget(
+            name: "SCSDKCoreKit",
+            path: "./Sources/SCSDKCoreKit.xcframework")
     ]
 )
